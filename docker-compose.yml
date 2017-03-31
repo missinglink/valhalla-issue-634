@@ -1,0 +1,8 @@
+version: '2'
+services:
+  valhalla:
+    image: valhalla
+    container_name: valhalla
+    build: .
+    restart: always
+    ports: [ "8002:8002" ]
